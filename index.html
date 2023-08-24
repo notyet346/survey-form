@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+
+  
+  <H1 id="title" class="text center-text">Survey Form</H1>
+  <P id="description" class="text center-text">How did you hear about us?</P>
+  <form action="#" id="survey-form" >
+    <div class="form_input">
+      <label for="name" id="name-label" class="text">Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Your name here" required><br>
+    </div>
+    <div class="form_input">
+      <label for="email" id="email-label" class="text">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Your email here" required><br>
+      <small>Format: 12345678@email.com</small><br>
+    </div>
+    <!-- Dropdown  -->
+    <div class ="form_input" id="dropdown">
+        <label class="text">
+          How did you hear about this website?
+        </label><br>
+  
+        <select name="role" id="role">
+          <option value="friend">Friend</option>
+          <option value="social-media">Social Media</option>
+          <option value="search-engine">
+            Search Engine</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+    <div class="form_input">
+      <label for="number" id="number-label" >Number of social media you use:</label><br>
+      <input type="number" id="number" name="number" placeholder="number of accounts" min="0" max="10"><br>
+    </div>
+    <div class="form_input">
+        <p>Social media you  use:</p>
+        <input type="checkbox" id="social-1" name="social-1" value="Facebook" >
+        <label for="social-1">Facebook</label><br>
+        
+        <input type="checkbox" id="social-2" name="social-2" value="YouTube" >
+        <label for="social-2">YouTube</label><br>
+
+        <input type="checkbox" id="social-3" name="social-3" value="WhatsApp" >
+        <label for="social-3">WhatsApp</label><br>
+
+        <input type="checkbox" id="social-4" name="social-4" value="Instagram" >
+        <label for="social-4">Instagram</label><br>
+
+        <input type="checkbox" id="social-5" name="social-5" value="TikTok" >
+        <label for="social-5">TikTok</label><br>
+
+        <input type="checkbox" id="social-6" name="social-6" value="Snapchat" >
+        <label for="social-2">Snapchat</label><br>
+
+        <input type="checkbox" id="social-7" name="social-7" value="Pinterest" >
+        <label for="social-7">Pinterest</label><br>
+
+        <input type="checkbox" id="social-8" name="social-8" value="Reddit" >
+        <label for="social-8">Reddit</label><br>
+
+        <input type="checkbox" id="social-9" name="social-9" value="LinkedIn" >
+        <label for="social-9">LinkedIn</label><br>
+
+        <input type="checkbox" id="social-10" name="social-10" value="Twitter" >
+        <label for="social-10">Twitter</label><br>
+
+
+
+    </div>
+    <div class="form_input">
+      <p class="text">Would you recommend us?</p>
+      <label class="text">
+        <input id="yes" type="radio" name="yes-no" value="Yes">Yes
+      </label>
+      <label class="text">
+        <input id="no" type="radio" name="yes-no" value="No">No
+      </label>
+    </div>
+    <div class="form_input">
+      <p class="text">Leave some comments and suggestions</p>
+      <textarea placeholder="Message"></textarea>
+    </div>
+    <button type="submit" id="submit" class= "btn">Submit</button>
+
+  </form>
+
+</body>
+
+</html>

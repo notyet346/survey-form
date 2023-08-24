@@ -1,0 +1,66 @@
+
+/* text formatting*/
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+.center-text{
+  text-align: center;
+}
+
+
+
+body {
+  background-color: #e2e4f6;
+  color: #39393A;
+  font-family: 'Josefin Sans', sans-serif;
+}
+form {
+  background-color: #fff;
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.form_input {
+  margin-bottom: 15px;
+}
+.form_input input[type="text"],
+input[type="email"] {
+  width: 250px;
+  padding: 12px 20px;
+  border: 1px solid #4f404b;
+}
+
+.form_input input[type="radio"] {
+  display: inline-block;
+  width: auto;
+}
+.form_input textarea {
+  width: 250px;
+  padding: 12px 20px;
+  height: 80px;
+  resize: none;
+  border: 1px solid #4f404b;
+}
+
+/* Button */
+
+.btn {
+  background-color: #39393A;
+  color: #E2E4F6;
+  border: none;
+  font-family: inherit;
+  font-size: 21px;
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background-color: #E2E4F6;
+  color: #39393A;
+  border: 1px solid #39393A;
+  font-weight: bold !important;
+  
+}
+
